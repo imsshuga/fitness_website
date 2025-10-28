@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitLife - Fitness & Nutrition</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span>FitLife</span>
+        </div>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" data-page="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" data-page="programs">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" data-page="workouts">Workouts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" data-page="nutrition">Nutrition</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" data-page="about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn-primary" data-page="sign in"
+              >Get Started</a
+            >
+          </li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Container -->
+    <div id="page-container">
+      <!-- Home Page -->
+      <div id="home-page" class="page active">
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="hero-image">
+            <div
+              class="image active"
+              style="background-image: url('photos/Rectangle\ 4.png')"
+            ></div>
+          </div>
+
+          <div class="hero-content">
+            <h1 class="hero-title">Transform Your Life</h1>
+            <p class="hero-subtitle">Fitness & Nutrition Excellence</p>
+            <p class="hero-description">
+              Achieve your health and fitness goals with our personalized
+              training programs and expert nutrition guidance.
+            </p>
+            <a href="#" class="btn btn-primary btn-large" data-page="programs">
+              Start Your Journey
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+          <div class="container">
+            <div class="section-header">
+              <h2>Why Choose FitLife?</h2>
+              <p>
+                We combine cutting-edge fitness science with personalized
+                nutrition to deliver results that last a lifetime.
+              </p>
+            </div>
+
+            <div class="features-grid">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-bullseye"></i>
+                </div>
+                <h3>Personalized Goals</h3>
+                <p>
+                  Custom fitness and nutrition plans tailored to your specific
+                  goals and lifestyle.
+                </p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <h3>Expert Trainers</h3>
+                <p>
+                  Work with certified professionals who are dedicated to your
+                  success.
+                </p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-trophy"></i>
+                </div>
+                <h3>Proven Results</h3>
+                <p>
+                  Join thousands who have transformed their lives with our
+                  programs.
+                </p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <h3>Flexible Schedule</h3>
+                <p>
+                  Train on your schedule with 24/7 access to our programs and
+                  resources.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+          <div class="container">
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="stat-number">5000+</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Expert Trainers</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">95%</div>
+                <div class="stat-label">Success Rate</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+          <div class="container">
+            <div class="section-header">
+              <h2>What Our Clients Say</h2>
+              <p>Real results from real people</p>
+            </div>
+
+            <div class="testimonials-grid">
+              <div class="testimonial-card">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>
+                  "Lost 30 pounds in 3 months! The nutrition guidance was
+                  game-changing."
+                </p>
+                <div class="testimonial-author">
+                  <strong>Sarah Johnson</strong>
+                  <span>Client</span>
+                </div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>
+                  "Best investment I've made. The trainers are incredibly
+                  knowledgeable."
+                </p>
+                <div class="testimonial-author">
+                  <strong>Mike Chen</strong>
+                  <span>Client</span>
+                </div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>
+                  "Finally found a program that fits my busy lifestyle. Highly
+                  recommended!"
+                </p>
+                <div class="testimonial-author">
+                  <strong>Emily Davis</strong>
+                  <span>Client</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Programs Section -->
+      <div id="programs-page" class="page">
+        <section class="page-hero1">
+          <div class="hero-content">
+            <h1>Fitness Programs</h1>
+            <h2>Choose Your Path to Success</h2>
+            <p>
+              Discover our comprehensive fitness and nutrition programs designed
+              to help you achieve your specific goals with expert guidance.
+            </p>
+          </div>
+        </section>
+
+        <section class="programs">
+          <div class="container">
+            <div class="section-header">
+              <h2>Our Fitness Programs</h2>
+              <p>
+                Choose the program that matches your goals and fitness level
+              </p>
+            </div>
+
+            <div class="programs-grid">
+              <div class="program-card">
+                <div class="program-header">
+                  <h3>Weight Loss Program</h3>
+                  <div class="program-price">$299</div>
+                  <div class="program-duration">12 weeks</div>
+                </div>
+                <ul class="program-features">
+                  <li><i class="fas fa-check"></i> Custom meal plans</li>
+                  <li>
+                    <i class="fas fa-check"></i> Cardio & strength training
+                  </li>
+                  <li><i class="fas fa-check"></i> Weekly progress tracking</li>
+                  <li><i class="fas fa-check"></i> 24/7 support access</li>
+                  <li><i class="fas fa-check"></i> Supplement guidance</li>
+                </ul>
+                <button class="btn btn-outline">Choose Plan</button>
+              </div>
+
+              <div class="program-card popular">
+                <div class="popular-badge">Most Popular</div>
+                <div class="program-header">
+                  <h3>Strength Training</h3>
+                  <div class="program-price">$399</div>
+                  <div class="program-duration">16 weeks</div>
+                </div>
+                <ul class="program-features">
+                  <li>
+                    <i class="fas fa-check"></i> Progressive overload programs
+                  </li>
+                  <li><i class="fas fa-check"></i> Competition preparation</li>
+                  <li>
+                    <i class="fas fa-check"></i> Advanced nutrition protocols
+                  </li>
+                  <li><i class="fas fa-check"></i> 1-on-1 coaching sessions</li>
+                  <li><i class="fas fa-check"></i> Recovery optimization</li>
+                </ul>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+
+              <div class="program-card">
+                <div class="program-header">
+                  <h3>Nutrition Coaching</h3>
+                  <div class="program-price">$199</div>
+                  <div class="program-duration">8 weeks</div>
+                </div>
+                <ul class="program-features">
+                  <li>
+                    <i class="fas fa-check"></i> Personalized meal planning
+                  </li>
+                  <li><i class="fas fa-check"></i> Macro tracking education</li>
+                  <li><i class="fas fa-check"></i> Recipe database access</li>
+                  <li><i class="fas fa-check"></i> Grocery shopping guides</li>
+                  <li><i class="fas fa-check"></i> Lifestyle integration</li>
+                </ul>
+                <button class="btn btn-outline">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nutrition Solutions -->
+        <section class="nutrition-solutions">
+          <div class="container">
+            <div class="section-header">
+              <h2>Nutrition Solutions</h2>
+              <p>
+                Comprehensive nutrition support to complement your fitness
+                journey
+              </p>
+            </div>
+
+            <div class="solutions-grid">
+              <div class="solution-card">
+                <div class="solution-icon">
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Performance Nutrition</h3>
+                <p>
+                  Fuel your workouts and optimize recovery with precision
+                  nutrition timing.
+                </p>
+              </div>
+
+              <div class="solution-card">
+                <div class="solution-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <h3>Family Meal Plans</h3>
+                <p>
+                  Healthy, delicious meals that the whole family will love and
+                  enjoy.
+                </p>
+              </div>
+
+              <div class="solution-card">
+                <div class="solution-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <h3>Meal Prep Solutions</h3>
+                <p>
+                  Save time with our efficient meal prep strategies and batch
+                  cooking guides.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="free-consultation">
+          <h1>Not Sure Which Program Is Right for You?</h1>
+          <p>
+            Get a free consultation with one of our expert trainers to find your
+            perfect program match.
+          </p>
+          <button>Free Consultation</button>
+        </section>
+      </div>
+
+      <!-- Workouts Page -->
+      <div id="workouts-page" class="page">
+        <section class="page-hero2">
+          <div class="hero-content">
+            <h1>Workout Library</h1>
+            <h2>Choose Your Path to Success</h2>
+            <p>
+              Explore our comprehensive collection of workouts designed for all
+              fitness levels and goals.
+            </p>
+          </div>
+        </section>
+
+        <section class="workouts">
+          <div class="container">
+            <div class="section-header">
+              <h2>Workout Library</h2>
+              <p>Find the perfect workout for your goals</p>
+            </div>
+
+            <!-- Workout Filters -->
+            <div class="workout-filters">
+              <div class="filter-group">
+                <label>Category:</label>
+                <select id="categoryFilter">
+                  <option value="">All Categories</option>
+                  <option value="cardio">Cardio</option>
+                  <option value="strength">Strength</option>
+                  <option value="flexibility">Flexibility</option>
+                </select>
+              </div>
+
+              <div class="filter-group">
+                <label>Difficulty:</label>
+                <select id="difficultyFilter">
+                  <option value="">All Levels</option>
+                  <option value="beginner">Beginner</option>
+                  <option value="intermediate">Intermediate</option>
+                  <option value="advanced">Advanced</option>
+                </select>
+              </div>
+
+              <button id="favoritesToggle" class="btn btn-outline">
+                <i class="fas fa-heart"></i>
+                Show Favorites (<span id="favoritesCount">0</span>)
+              </button>
+            </div>
+
+            <div class="workouts-grid" id="workoutsGrid">
+              <!-- Workouts will be populated by JavaScript -->
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Nutrition Page -->
+      <div id="nutrition-page" class="page">
+        <section class="page-hero3">
+          <div class="hero-content">
+            <h1>Nutrition Guide</h1>
+            <h2>Fuel Your Success</h2>
+            <p>
+              Discover evidence-based nutrition strategies to optimize your
+              health, performance, and achieve your fitness goals.
+            </p>
+          </div>
+        </section>
+
+        <section class="nutrition">
+          <div class="container">
+            <div class="section-header"></div>
+
+            <!-- Daily Quote -->
+            <div class="daily-quote" id="dailyQuote">
+              <div class="quote-content">
+                <i class="fas fa-quote-left"></i>
+                <blockquote id="quoteText">
+                  Loading motivational quote...
+                </blockquote>
+                <cite id="quoteAuthor"></cite>
+              </div>
+            </div>
+
+            <!-- Meal Plans Tabs -->
+            <div class="tabs-container">
+              <div class="tabs-header">
+                <button class="tab-btn active" data-tab="weight-loss">
+                  Weight Loss
+                </button>
+                <button class="tab-btn" data-tab="muscle-gain">
+                  Muscle Gain
+                </button>
+                <button class="tab-btn" data-tab="maintenance">
+                  Maintenance
+                </button>
+              </div>
+
+              <div class="tab-content active" id="weight-loss">
+                <div class="meal-plan">
+                  <div class="meal-card">
+                    <h4>Breakfast</h4>
+                    <ul>
+                      <li>Greek yogurt with berries</li>
+                      <li>1 tbsp almond butter</li>
+                      <li>Green tea</li>
+                    </ul>
+                    <div class="calories">~300 calories</div>
+                  </div>
+
+                  <div class="meal-card">
+                    <h4>Lunch</h4>
+                    <ul>
+                      <li>Grilled chicken salad</li>
+                      <li>Mixed vegetables</li>
+                      <li>Olive oil dressing</li>
+                    </ul>
+                    <div class="calories">~400 calories</div>
+                  </div>
+
+                  <div class="meal-card">
+                    <h4>Dinner</h4>
+                    <ul>
+                      <li>Baked salmon</li>
+                      <li>Steamed broccoli</li>
+                      <li>Quinoa (1/2 cup)</li>
+                    </ul>
+                    <div class="calories">~450 calories</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-content" id="muscle-gain">
+                <div class="meal-plan">
+                  <div class="meal-card">
+                    <h4>Breakfast</h4>
+                    <ul>
+                      <li>Oatmeal with protein powder</li>
+                      <li>Banana and nuts</li>
+                      <li>Whole milk</li>
+                    </ul>
+                    <div class="calories">~550 calories</div>
+                  </div>
+
+                  <div class="meal-card">
+                    <h4>Lunch</h4>
+                    <ul>
+                      <li>Lean beef with rice</li>
+                      <li>Mixed vegetables</li>
+                      <li>Avocado</li>
+                    </ul>
+                    <div class="calories">~650 calories</div>
+                  </div>
+
+                  <div class="meal-card">
+                    <h4>Dinner</h4>
+                    <ul>
+                      <li>Grilled chicken breast</li>
+                      <li>Sweet potato</li>
+                      <li>Green beans</li>
+                    </ul>
+                    <div class="calories">~600 calories</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-content" id="maintenance">
+                <div class="meal-plan">
+                  <div class="meal-card">
+                    <h4>Breakfast</h4>
+                    <ul>
+                      <li>Whole grain toast</li>
+                      <li>Scrambled eggs</li>
+                      <li>Fresh fruit</li>
+                    </ul>
+                    <div class="calories">~400 calories</div>
+                  </div>
+
+                  <div class="meal-card">
+                    <h4>Lunch</h4>
+                    <ul>
+                      <li>Turkey sandwich</li>
+                      <li>Side salad</li>
+                      <li>Apple</li>
+                    </ul>
+                    <div class="calories">~500 calories</div>
+                  </div>
+
+                  <div class="meal-card">
+                    <h4>Dinner</h4>
+                    <ul>
+                      <li>Pasta with vegetables</li>
+                      <li>Grilled protein</li>
+                      <li>Side salad</li>
+                    </ul>
+                    <div class="calories">~550 calories</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ Accordion -->
+            <div class="faq-section">
+              <h3>Frequently Asked Questions</h3>
+              <div class="accordion">
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <h4>How much protein should I eat daily?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Generally, aim for 0.8-1.2 grams of protein per kilogram
+                      of body weight. If you're very active or trying to build
+                      muscle, you may need 1.2-2.0 grams per kilogram.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <h4>Is it better to eat 3 large meals or 6 small meals?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Both approaches can work! The key is finding what fits
+                      your lifestyle and helps you maintain consistent energy
+                      levels.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <h4>Should I take supplements?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      A balanced diet should provide most nutrients you need.
+                      However, some people may benefit from vitamin D, B12, or
+                      omega-3 supplements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- About Page -->
+      <div id="about-page" class="page">
+        <section class="page-hero">
+          <div class="hero-content">
+            <h1>About FitNutrition</h1>
+            <p>Your partners in health and wellness</p>
+          </div>
+        </section>
+
+        <section class="about">
+          <div class="container">
+            <div class="section-header">
+              <h2>About FitNutrition</h2>
+              <p>Your partners in health and wellness</p>
+            </div>
+
+            <div class="about-content">
+              <div class="about-text">
+                <h3>Our Story</h3>
+                <p>
+                  Founded in 2015, FitNutrition was born from a simple belief:
+                  everyone deserves access to expert fitness guidance and
+                  personalized nutrition support, regardless of their starting
+                  point.
+                </p>
+                <p>
+                  What started as a small local gym has grown into a
+                  comprehensive wellness platform, serving thousands of clients
+                  worldwide with cutting-edge fitness programs and
+                  evidence-based nutrition coaching.
+                </p>
+              </div>
+
+              <div class="about-image">
+                <img
+                  src="https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg"
+                  alt="Our gym"
+                />
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-section">
+              <h3>Contact Us</h3>
+              <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" required />
+                  <span class="error-message" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required />
+                  <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                  ></textarea>
+                  <span class="error-message" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i>
+                  Send Message
+                </button>
+              </form>
+
+              <div class="success-message" id="successMessage">
+                <i class="fas fa-check-circle"></i>
+                <h4>Message Sent!</h4>
+                <p>Thank you for contacting us. We'll get back to you soon!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <i class="fas fa-dumbbell"></i>
+              <span>FitLife</span>
+            </div>
+            <p>
+              Your fitness journey starts here. We’re dedicated to guiding you toward strength, health, and confidence with expert training and proven results.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#" data-page="home">Home</a></li>
+              <li><a href="#" data-page="programs">Programs</a></li>
+              <li><a href="#" data-page="workouts">Workouts</a></li>
+              <li><a href="#" data-page="nutrition">Nutrition</a></li>
+              <li><a href="#" data-page="about">About Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact Information</h4>
+            <div class="contact-info">
+              <p>
+                <i class="fas fa-map-marker-alt"></i> 123 Fitness Street, Health
+                City
+              </p>
+              <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+              <p><i class="fas fa-envelope"></i> info@fitnutrition.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 FitNutrition. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="workoutModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="modalTitle"></h3>
+          <button class="modal-close" id="modalClose">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img id="modalImage" src="" alt="" />
+          <p id="modalDescription"></p>
+          <div class="modal-stats">
+            <div class="stat">
+              <i class="fas fa-clock"></i>
+              <span id="modalDuration"></span>
+            </div>
+            <div class="stat">
+              <i class="fas fa-fire"></i>
+              <span id="modalCalories"></span>
+            </div>
+          </div>
+          <h4>Exercises:</h4>
+          <ul id="modalExercises"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
