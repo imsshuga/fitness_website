@@ -6,6 +6,7 @@ FitLife is a responsive front-end project focused on fitness and nutrition. It w
 
 Project Structure
 FitLife/
+
 │
 
 ├── index.html        # Main HTML file
