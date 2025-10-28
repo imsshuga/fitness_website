@@ -8,9 +8,13 @@ Project Structure
 FitLife/
 │
 ├── index.html        # Main HTML file
+
 ├── style.css         # CSS styling and responsive layout
+
 ├── script.js         # JavaScript interactivity and logic
+
 ├── photos/           # Project images
+
 └── README.md         # Project documentation
 
 Design Link:
